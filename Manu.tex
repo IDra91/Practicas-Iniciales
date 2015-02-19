@@ -1,0 +1,343 @@
+\documentclass{beamer}[10]
+\usepackage{pgf}
+\usepackage[danish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{beamerthemesplit}
+\usepackage{graphics,epsfig, subfigure}
+\usepackage{url}
+\usepackage{srcltx}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {} }
+\definecolor{kugreen}{RGB}{50,93,61}
+\definecolor{kugreenlys}{RGB}{132,158,139}
+\definecolor{kugreenlyslys}{RGB}{173,190,177}
+\definecolor{kugreenlyslyslys}{RGB}{214,223,216}
+\setbeamercovered{transparent}
+\mode<presentation>
+\usetheme[numbers,totalnumber,compress,sidebarshades]{PaloAlto}
+\setbeamertemplate{footline}[frame number]
+
+  \usecolortheme[named=kugreen]{structure}
+  \useinnertheme{circles}
+  \usefonttheme[onlymath]{serif}
+  \setbeamercovered{transparent}
+  \setbeamertemplate{blocks}[rounded][shadow=true]
+
+
+%\useoutertheme{infolines} 
+\title{Manual de Mantenimiento de Laptop CompaqPresario R3000}
+\author{Estudiantes de Prácticas Iniciales-Intermedias, Grupo 12}
+\institute{Facultad de Ingeniería - Escuela de Ciencias y Sistemas\\ Universidad de San Carlos de Guatemala}
+\date{19 de Febrero 2015}
+
+
+
+\begin{document}
+\frame{\titlepage \vspace{-0.5cm}
+}
+
+\frame
+{
+\frametitle{Acerca de Mantenimiento}
+\tableofcontents%[pausesection]
+}
+
+\section{Porqué que dar mantenimiento a una Computadora}
+\frame{
+\frametitle{Porqué que dar mantenimiento a una Computadora}
+Muchas veces nos estresamos esperando a que la computadora realice una tarea que les hemos asignado, pasa mucho tiempo para que esta se lleve a cabo.   Ya sea abrir un programa, mientras estamos trabajando se nos traba o en ocasiones se llega a apagar el ordenador y nos preguntamos porque nuestro computador no es igual de rápido como cuando lo compramos esto se debe a que con forme el uso los componentes internos de la computadora se desgastan, también pueden estar obstaculizados por partículas de polvo y esto puede ocasionar un mal desempeño al momento de usar el ordenador y es por esto que es necesario darle mantenimiento al hardware de nuestro computador.
+}
+
+\section{Tipos de Mantenimiento}
+\frame{
+\frametitle{Tipos de Mantenimiento}
+Mantenimiento Preventivo\\
+Con el mantenimiento preventivo vamos a asegurar que el desempeño de nuestra computadora sea el mas optimo, por lo que al invertir un poco de tiempo en darle mantenimiento al computador vamos a ahorrar muchas horas de espera si la computadora funciona de manera inadecuada.
+\newline
+\newline
+Mantenimiento Correctivo\\
+El mantenimiento correctivo se realiza cuando el computador no funciona bien debido a que alguno de sus componentes esta dañado por lo que se debe de cambiar por uno nuevo o reparar el que esta dañado si esto es posible asi por otro lado el mantenimiento correctivo se puede hacer debido a que el computador viene dañado de fabrica.
+}
+
+\section{Equipo}
+\frame{
+\frametitle{Equipo}
+Dimensiones físicas\\
+La Compaq Presario R3000 tiene 1.77 pulgadas (4.4 centímetros) de alto por 14.1 pulgadas (35.8centímetros) de ancho por 10.2 pulgadas (25.9 centímetros) de profundidad. La portátil pesa 6.4 libras (2.9 kilos). La computadora posee un teclado de 101 teclas de tamaño completo, así como también un dispositivo señalador HP TrackPad.
+\newline
+\newline
+CPU y memoria\\
+La CompaqPresario R300 cuenta con una CPU Intel Celeron 420 Mobile que opera a 1.6 gigahertz de un solo núcleo. El equipo utiliza 256 megabytes de RAM SD, actualizable a un máximo de 2 gigabytes.
+}
+
+\frame{
+\frametitle{Equipo}
+Pantalla\\
+La portátil tiene una pantalla panorámica antirreflejos de 15.4 pulgadas (39.1 centímetros) que posee una resolución nativa de1280 x 800 píxeles.
+\newline
+\newline
+Almacenamiento\\
+La CompaqPresario R3000 incluye un disco duro de 40 gigabytes. Además incorpora una unidad óptica de DVD/CD con soporte para escritura de CD.
+}
+
+\frame{
+\frametitle{Equipo}
+Expansión\\
+El equipo Compaq le brinda a los usuarios dos puertos USB 2.0, puertos de entradas y salidas de audio, puertos de módem (RJ-11) y red (RJ-45), así como también un puerto de salida S-Video.
+\newline
+\newline
+Sistema operativo\\
+El CompaqPresarioR3000 viene con el sistema operativo Microsoft Windows XP HomeEdition instalado.
+}
+
+\section{Herramientas de Trabajo}
+\frame{
+\frametitle{Herramientas de Trabajo}
+
+Un desarmadores (plano o de cruz ):\\
+Los desarmadores se utilizan para retirar los tornillos que mantienen fija la tapadera que cubre el ordenador.
+\newline
+\newline
+Espuma limpiadora:\\
+La espuma limpiadora es utilizada al final del mantenimiento para limpiar parte exterior del computador y también para limpiar la pantalla del ordenador.
+\newline
+\newline
+Una brocha:\\
+La brocha nos será útil para retirar el polvo que se acumula en los componentes internos.
+\newline
+\newline
+Un trapo o pañuelo:\\
+Estos utensilios serán utilizados con la espuma limpiadora.
+}
+
+\frame{
+\frametitle{Herramientas de Trabajo}
+Aire Comprimido:\\
+El aire comprimido será requerido para llegar a los espacios con los que no se puede limpiar con la brocha.
+\newline
+\newline
+Limpia contactos:\\
+El limpia contactos como su nombre lo dice será empleado para limpiar los contactos tanto de la tarjeta madre como de los componentes Componentes de una Computadora.
+\newline
+\newline
+Recipiente con separaciones:\\
+Este será empleado para almacenar los tornillos que se vallan desmontando.
+}
+
+\frame{
+\frametitle{Herramientas de Trabajo}
+\includegraphics[width=8.0cm]{Imagen 1.jpg}
+}
+
+
+\section{Componentes de una Computadora}
+\frame{
+\frametitle{Componentes de una Computadora}
+Tarjeta Madre:\\
+Este es el componente mas importante de la computadora, ya que contiene el procesador, la memoria, tarjeta de red, tarjeta de video, wireless y otros circuitos que son necesarios para que el computador funcione.
+\newline
+\newline
+Fuente de Poder:\\
+La fuente de poder es la encargada de proveer energía eléctrica a la tarjeta madre y demás dispositivos en las laptops la fuente de poder es la batería.
+}
+
+\frame{
+\frametitle{Componentes de una Computadora}
+Memoria RAM:\\
+Por otro lado, la Memoria Ram (Random Access Memory o Memoria de Acceso aleatorio) es un espacio de almacenamiento temporáneo utilizado por el microprocesador y otros componentes. A Diferencia de las Unidades de almacenamiento, ésta es volátil, Significa que su contenido se borra cada vez que se apaga o reiniciar la computadora; también es más rápida, es decir que el acceso a los datos que mantiene es muy rápido.
+\newline
+\newline
+Memoria ROM:\\
+(ReadOnlyMemmory, o memoria de sólo lectura) también es conocida como BIOS, y es un chip que viene agregado a la tarjeta madre.
+}
+
+\frame{
+\frametitle{Componentes de una Computadora}
+El Procesador:\\
+Este es el chip mas importante ya que sin el la computadora no seria capas de realizar tareas porque el procesador es el encargado de procesar los datos y lo hace a velocidades muy altas, existen diferentes tipos de procesadores y su velocidad depende de los Ghz que tenga.
+\newline
+\newline
+Disco Duro:\\
+El disco duro es un dispositivo de almacenamiento no volátil, por lo que conserva toda la información que ha sido almacenada. 
+}
+
+\frame{
+\frametitle{Componentes de una Computadora}
+Ventiladores:\\
+Los ventiladores son los encargados de que el procesador y otros componentes no se sobre calienten ya que si esto pasa puede llegar a quemarse y el computador puede dejar de funcionar, debe de haber al menos un ventilador en el computador.
+\newline
+\newline
+Puertos de Conexión:\\
+Son dispositivos electrónicos que permiten crear una interfaz entre la computadora y otros dispositivos periféricos como ratones, impresoras, cámaras, teclados, etc.
+\newline
+\newline
+}
+
+\frame{
+\frametitle{Componentes de una Computadora}
+DVD-ROM:\\
+Esta unidad es la utilizada para leer discos ópticos. En la actualidad algunos modelos dejan de incluirlo ya que es mas rápida la transferencia de datos a través de internet y por lo tanto esta quedando obsoleta esta unidad pero en modelos antiguos es necesario tomarla en cuenta mientras se da el mantenimiento.
+}
+
+\section{Procedimiento para el mantenimiento preventivo}
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+Antes de empezar debe tomar en cuenta las siguientes recomendaciones:\\
+
+•	Trabajar en una mesa amplia para tener espacio para ir poniendo cada pieza que valla desmontando.
+\newline
+\newline
+•	Tener todas las herramientas a la mano.
+\newline
+\newline
+•	Tener tiempo aproximadamente puede tarda de 1 a 2 horas en darle mantenimiento a la computadora ya preferiblemente se debe concluir con el mantenimiento en el mismo día.
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+Paso 1:
+Hay que tomar en cuenta que nuestro cuerpo es portador de energía y por lo tanto antes de comenzar a manipular la computadora es importante quitar la estática que tenemos en nuestro cuerpo ya que si manipulamos los componentes internos de la computadora se pueden dañan y quedar inservibles para esto hay dos opciones una es con una pulsera anti-estancia pero si no se cuenta con una se puede tocar la pared o el piso y esto ara que su cuerpo se descargue.
+Ver Imagen 2
+
+\includegraphics[width=5.0cm]{Imagen 2.jpg}
+
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+Paso 2:
+Apagar la computadora y remover la batería.\\
+
+Paso 3:
+Remover todos los tornillos que aseguran la tapadera externa del ordenador. En este paso es recomendable si es su primera vez dando mantenimiento a su computadora tomar una fotografía para ver como estaba la computadora sin desmontar.
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+
+\begin{wrapfigure}{l}{0.25\textwidth} 
+    \centering
+    \includegraphics[width=0.25\textwidth]{Imagen 3.jpg}
+\end{wrapfigure}
+
+\begin{wrapfigure}{l}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{Imagen 4.jpg}
+\end{wrapfigure}
+
+También ir catalogando los tornillos por áreas de donde fueron removidas para esto vamos a ser uso de recipiente con separaciones que hemos mencionado anterior mente pero si no se cuenta con uno de esto como se ve en la fotografía se puede utilizar bolsas de plástico e irlas etiquetando a que sección pertenecen. Ver Imagen 3 y 4.
+
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+
+\begin{wrapfigure}{l}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{Imagen 5.jpg}
+\end{wrapfigure}
+\begin{wrapfigure}{l}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{Imagen 6.jpg}
+\end{wrapfigure}
+Paso 4:Ya que la memoria ram es una de las primeras que queda expuestas procederemos a retirar para retirar esta memoria es necesario desplazar los seguros que la mantienen firme hacia la derecha y jalar hacia delante la memoria.   Hay que tomar en cuenta que cuando se manipula esta memoria es preferible tomarla por los lados y no por los pines de conexión ni los chips de memoria, si no sabe cuales son los chips de memoria ni los pines de conexión vea la imagen 5 y 6.
+}
+  
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+\begin{wrapfigure}{r}{0.20\textwidth}
+    \centering
+    \includegraphics[width=0.17\textwidth]{Imagen 7.jpg}
+\end{wrapfigure}
+\begin{wrapfigure}{r}{0.20\textwidth}
+    \centering
+    \includegraphics[width=0.17\textwidth]{Imagen 8.jpg}
+\end{wrapfigure}
+Paso 5:
+Ya que comenzamos a retirar componentes internos de la computadora es importante colocarlos en un lugar anti-estática para que no se dañen este puede ser una bolsa de burbujas la cual protegerá los componentes mientras trabajamos. Ver imagen 7 y 8.
+
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+
+\begin{wrapfigure}{l}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.20\textwidth]{Imagen 9.jpg}
+\end{wrapfigure}
+Paso 6:
+Ahora procederemos a retirar el disco duro para esto solamente es necesario sostenerlo por un plástico que sobresale, levantar de forma inclinada tratando de formar 30 grados y jalar con un poco de fuerza hacia fuera. Ver Imagen 9
+
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+
+\begin{wrapfigure}{r}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{Imagen 10.jpg}
+\end{wrapfigure}
+Paso 7:
+Retiramos el resto de la carcasa que cubre la tarjeta madre y en el caso del CompaqPresario R3000 no es necesario retira el teclado para llegar a la tarjeta madre por lo que podremos ver muchos componentes internos una vez vemos los componentes internos procedemos a retirar una lamina que cubre los ventiladores este paso es de suma importancia ya que unos ventiladores limpios evitaran que la computadora se sobre caliente, para limpiarlos procedemos con la brocha a desplazar el polvo acumulado tanto en los ventiladores como en el resto de la tarjeta madre. 
+Ver Imagen 10
+
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+Paso 8:
+Cuando terminamos de limpiar con la brocha puede que hallamos tenido dificultad para llegar a ciertos lugares por lo que procederemos a utilizar el aire comprimido para esto es necesario tener en cuenta que no hay que rociar el aire muy cerca de los componentes ya que al ser air que sale a presión si esta muy cerca de los componentes este puede dañarlos por lo que se recomienda aplicarlo de 10 a 15 cm de distancia.
+Ver imagen 11.
+\begin{wrapfigure}{l}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{Imagen 11.jpg}
+\end{wrapfigure}
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+Paso 9:
+\begin{wrapfigure}{r}{0.15\textwidth}
+    \centering
+    \includegraphics[width=0.20\textwidth]{Imagen 12.jpg}
+\end{wrapfigure}
+Limpiar los contactos debido a los contactos de la memoria RAM y el disco duro. Este paso es opcional y sólo en el caso de que ya laptop ya sea algo vieja
+Ver imagen 12.
+
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+Paso 10:
+Procedemos a montar los componentes en sus respectivos lugares, atornillamos todo y hay que tomar en cuenta que no debe sobrar ninguna pieza ya que sino no habremos hecho un buen mantenimiento y esto puede provocar fallos posterior mente por lo que hay que asegurarse de haber puesto todo en su lugar.
+}
+
+\frame{
+\frametitle{Procedimiento para el mantenimiento preventivo}
+\includegraphics[width=0.25\textwidth]{Imagen 13.jpg}
+Paso 11:
+El ultimo paso consiste en limpiar la parte exterior de la computado así como la pantalla para esto hacemos uso de la espuma limpiadora la vertimos y con ayuda del pañuelo la esparcimos por toda la computadora. Ver Imagen 13
+}
+
+
+\section{Fuentes de Consulta}
+\frame{
+\frametitle{Fuentes de Consulta}
+
+Sitio Web de HP\\ 
+Producto CompaqPresario R3000\\
+http://h10025.www1.hp.com/ewfrf/wc/product?cc=es&lc=es&dlc=es&product=442914\\ 
+\newline
+Boyce, Jim. \\
+Conozca y actualice su PC.Guía ilustrada. \\
+Prentice Hall Hispanoamericana SA. 1998. \\
+\newline
+Norton, Peter. \\
+Toda la PC. \\
+Prentice Hall Hispanoamericana SA. 1994. Quinta edición\\
+}
+
+\end{document}
